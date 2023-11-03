@@ -1,0 +1,28 @@
+@import "fonts.css";
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	background: #ffffff;
+}
+
+.container {
+	max-width: 1120px;
+	margin: 0 auto;
+}
+
+.header {
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+	height: 100px;
+}
+.header .container {
+	display: flex;
+}
