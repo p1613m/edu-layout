@@ -181,9 +181,25 @@ a {
 .footer-contacts {
 	display: flex;
 	gap: 60px;
+	width: calc(100% / 3 * 2);
+	font-size: 18px;
+	margin-bottom: 15px;
 }
 .footer-contacts-item {
-	flex-basis: calc(100% / 3 - 30px);
+	flex-basis: calc(50% - 40px);
+}
+.footer-contacts img {
+	display: block;
+	margin-bottom: 10px;
+}
+.footer-contacts b {
+	display: block;
+	margin-bottom: 8px;
+}
+.footer-contacts-title {
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 15px;
 }
 .footer-copy {
 	background: #EE4248;
@@ -192,15 +208,3 @@ a {
 	color: white;
 	text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
